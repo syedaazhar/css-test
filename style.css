@@ -13,6 +13,8 @@ header
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -46,7 +48,7 @@ button
     font-weight: bold;
     /* position: relative;
     left: 215px; */
-    box-shadow: 4px 4px 0 -2px var(--color-white),4px 4px 0 0 var(--color-mint);
+    box-shadow: 4px 4px 0 -2px #fff, 4px 4px 0 0 #42cdb2;
 }
 article
 {
@@ -80,4 +82,5 @@ p
     margin: 0 20px;
     color: #fff;
 }
+
 
